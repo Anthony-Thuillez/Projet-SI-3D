@@ -1,0 +1,124 @@
+.Quizz-Page {
+  background:linear-gradient(to bottom, #21204e 0%,#19192a 100%);
+  height: 100vh;
+  width: 100%;
+}
+
+.Quizz-MainContent {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 91%;
+}
+
+.Quizz-3D {
+  background: blue;
+  width: 65%;
+  height: 100vh;
+}
+
+.Quizz-Content {
+  width: 35%;
+  height: 100%;
+}
+
+.quizzGame {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.questionNumber {
+  font-family: 'AustinCyr-Roman';
+  margin-top: 70px;
+  display: inline-block;
+  font-size: 40px;
+  color: white;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.questionNumber:after {
+  content: '';
+  display: flex;
+  margin-top: 20px;
+  font-family: 'Roboto';
+  background: white;
+  width: 25%;
+  height: 1px;
+}
+
+.question {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  height: 100px;
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: white;
+  text-align: left;
+  width: 80%;
+  font-family: montserrat;
+  line-height: 1.5;
+  padding-left: 20px;
+
+}
+
+.yesnoContainer {
+  display: flex;
+}
+
+.vrai {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  height: 140px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.faux {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  height: 140px;
+    border: 1px solid white;
+  border-right: none !important;
+}
+
+.answer {
+  font-size: 16px;
+  padding-top: 50px;
+  text-align: left;
+  padding-left: 20px;
+  font-family: montserrat;
+}
+
+.suivant {
+  display: none;
+  position: fixed;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.2rem;
+  width: 35%;
+  height: 60px;
+  border-top: 1px solid white;
+  color: white;
+  bottom: 0;
+  font-family: montserrat;
+
+}
+
+.suivantFlex {
+  display: flex;
+}
+
+.none {
+  display: none;
+}

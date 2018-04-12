@@ -1,0 +1,104 @@
+/* .follower {
+  top: 65%;
+  left: 50%;
+  height: 130px;
+  width: 130px;
+  position: absolute;
+  border-radius: 50%;
+  border: solid #fff 1px;
+  transform: translate(-50%, -50%);
+  transition: all 0.1s linear;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* BUTTON */
+
+
+
+svg {
+
+  transform: rotate(-90deg) scale(0.9);
+  border-radius: 300px;
+  border: 1px solid rgb(143, 143, 143);
+}
+
+#Oval {
+  stroke-width: 3px;
+  fill: none;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  transition: stroke-dashoffset 3s ease-out;
+}
+
+#Oval.active {
+  stroke-dashoffset: 0;
+}
+
+.click-hold-container {
+position: absolute;
+
+
+left: 50%;
+top: 50%;
+transform: translateX(-50%);
+  font-family: montserrat;
+}
+
+.clickHold {
+  font-size: 1rem;
+  cursor: pointer;
+  color: white;
+  position: relative;
+  left: 40px;
+  top: -100px;
+}
+
+
+
+
+
+/* --- */
+
+
+
+
+
+
+.follower-Link {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'montserrat';
+  letter-spacing: 1.5;
+  font-size: 14px;
+  cursor: none;
+  user-select: none;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+.Home {
+  background-image: url('../../assets/img/home-bg.jpg');
+  background-size: cover;
+  height: 100vh;
+
+}
+
+.Home-title {
+  font-family: 'AustinCyr-Roman';
+  font-weight: lighter;
+  font-size: 60px;
+  color: #fff;
+  padding-top: 15%;
+  margin-bottom: 20px;
+
+}
+
+.Home-text {
+  margin-top: 10px;
+  font-family: 'montserrat';
+  font-weight: lighter;
+  font-size: 18px;
+  color: #fff;
+}

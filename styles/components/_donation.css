@@ -1,0 +1,65 @@
+.Donation-Page {
+  background-image: url('../../assets/img/donationTitle-bg.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+
+.Donation-title {
+  font-family: 'AustinCyr-Roman';
+  font-weight: lighter;
+  font-size: 55px;
+  color: #fff;
+  padding-top: 19%;
+
+  margin-bottom: 30px;
+
+
+}
+
+.Donation-text {
+  margin-top:50px;
+  font-family: 'montserrat';
+  font-weight: 300;
+  font-size: 20px;
+  color: #fff;
+}
+
+.Donation-Score {
+  width: 35%;
+  margin: auto;
+  margin-top: 10px;
+  height: 50px;
+  border: solid #fff 3px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Donation-ScoreText {
+  color: #fff;
+  font-size: 18px;
+  font-family: montserrat;
+}
+
+.Donation-Button {
+  width: 16%;
+  border: solid lightblue 3px;
+  border-radius: 50px;
+  margin: auto;
+  margin-top: 60px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.Donation-ButtonText {
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Raleway';
+  font-weight: bold;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+}

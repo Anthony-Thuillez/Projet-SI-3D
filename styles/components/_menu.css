@@ -1,0 +1,66 @@
+
+.Menu {
+  background:linear-gradient(to bottom, #21204e 0%,#19192a 100%);
+  color: #fff;
+  height: 100vh;
+  width: 100%;
+}
+
+.Menu-MainContent {
+  height: 91%;
+  padding-top: 2%;
+  display: flex;
+}
+
+.Menu-Content {
+  width: 100%;
+  margin: 1%;
+  transition: 0.2s;
+}
+
+.Menu-Title {
+  font-family: 'AustinCyr-Roman';
+  font-size: 40px;
+}
+
+.Menu-Link {
+  text-decoration: none;
+  display: block;
+  padding-top: 15%;
+  width: 100%;
+  color: #fff;
+}
+
+.Menu-Text {
+  display: block;
+  font-family: 'montserrat';
+  font-weight: lighter;
+  margin-top: 30px;
+  font-size: 17px;
+}
+
+.Discover {
+  background: linear-gradient(rgba(30, 10, 10, 0.2), rgba(50, 10, 10, 0.4)), url('../../assets/img/discover-bg.jpg');
+  background-size: cover;
+  cursor: pointer;
+}
+
+.Discover:hover {
+  background: linear-gradient(rgba(30, 10, 10, 0.4), rgba(50, 10, 10, 0.6)), url('../../assets/img/discover-bg.jpg');
+  background-size: cover;
+  transition: 0.5s;
+  transform: scale(0.98);
+}
+
+.Quizz {
+  background: linear-gradient(rgba(30, 10, 10, 0.4), rgba(50, 10, 10, 0.6)), url('../../assets/img/quizz-bg.jpg');
+  background-size: cover;
+  cursor: pointer;
+}
+
+.Quizz:hover {
+  background: linear-gradient(rgba(30, 10, 10, 0.4), rgba(50, 10, 10, 0.8)), url('../../assets/img/quizz-bg.jpg');
+  background-size: cover;
+  transition: 0.5s;
+  transform: scale(0.98);
+}

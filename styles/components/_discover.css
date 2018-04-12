@@ -1,0 +1,23 @@
+.Discover-Page {
+  background: #282A40;
+  height: 100vh;
+  width: 100%;
+}
+
+.Discover-MainContent {
+  display: flex;
+  width: 100%;
+  height: 91%;
+}
+
+.Discover-3D {
+  background: yellow;
+  width: 50%;
+  height: 100%;
+}
+
+.Discover-Content {
+  background: red;
+  width: 50%;
+  height: 100%;
+}

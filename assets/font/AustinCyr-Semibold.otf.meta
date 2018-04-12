@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: c2722a30aa652c6439eae01eeb667f1c
+timeCreated: 1523535331
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Austin Cyr
+  fontNames:
+  - Austin Cyr
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 014b367124ea15443b08c301414d0efa, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

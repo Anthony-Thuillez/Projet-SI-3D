@@ -17,11 +17,8 @@
 
   <script src="Build/UnityLoader.js"></script>
   <script>
-    var gameInstance = UnityLoader.instantiate("gameContainer", "Build/TestBuild.json");
+    var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Build007.json");
   </script>
 </head>
 
 <body>
-<audio src="">
-
-</audio>

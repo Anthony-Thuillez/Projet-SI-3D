@@ -1,7 +1,7 @@
 <?php
 include "includes/header.php";
 ?>
-
+<img class="Logo" src="img/logo.png" alt="logo">
 <section class="Donation-Page">
 
   <div class="container">

@@ -2,6 +2,8 @@
 include "includes/header.php";
 ?>
 
+<img class="Logo" src="img/logo.png" alt="logo">
+
 <section class="Home">
 
   <!-- <div class="follower"><a class="follower-Link" href="menu.php">Lancement</a></div> -->
